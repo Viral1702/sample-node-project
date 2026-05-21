@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pull Code') {
             steps {
-                git url: 'https://github.com/Viral1702/sample-node-project.git', branch: 'master'
+                git url: 'https://github.com/Viral1702/sample-node-project.git', branch: 'main'
             }
         }
 
