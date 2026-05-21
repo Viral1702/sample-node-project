@@ -1,8 +1,6 @@
 services:
   app:
     container_name: app
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: sample-node-app:latest
     ports:
       - "80:3000"
